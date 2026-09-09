@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Settings Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_working_hours"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:title="Working Hours" />
+            <item
+                android:id="@+id/nav_holidays"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="Edit Holidays" />
+            <item
+                android:id="@+id/nav_breaks"
+                android:icon="@android:drawable/ic_menu_day"
+                android:title="Edit Breaks" />
+            <item
+                android:id="@+id/nav_subscription"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Subscription Status" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>

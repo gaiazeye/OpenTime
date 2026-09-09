@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/workingHoursInfoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Working Hours Range: 09:00 AM - 05:00 PM"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/breakNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Break Name (e.g. Lunch Break)"/>
+
+    <TextView
+        android:id="@+id/breakStartText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12:00 PM"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/breakEndText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01:00 PM"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackground"/>
+
+</LinearLayout>

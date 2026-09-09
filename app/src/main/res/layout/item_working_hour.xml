@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/dayName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Monday"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09:00 AM"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - "/>
+
+    <TextView
+        android:id="@+id/endTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="05:00 PM"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"/>
+
+    <CheckBox
+        android:id="@+id/closedCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Closed"/>
+
+</LinearLayout>
